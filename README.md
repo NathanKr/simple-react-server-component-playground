@@ -1,9 +1,9 @@
 
 <h2 id="project-description">Project Description</h2>
-<p>A concise and informative summary of the project's purpose, key features, and target audience.</p>
+........
 
 <h2 id="motivation">Motivation</h2>
-We allready saw an hello world react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data ? and why should we do it in a server component ?
+We allready saw an 'hello world' react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data ? and why should we do it in a server component ?
 
 <h2 id="installation">Installation</h2>
 
@@ -20,8 +20,28 @@ npm run dev
 
 
 
-<h2 id="code-structure">Code Structure</h2>
-<p>An explanation of the project's code structure, including important files and directories.</p>
+<h2>React server component</h2>
+
+```ts
+async function Md2PostServerComponent() {
+  const filePath = path.resolve(
+    ".",
+    "data",
+    "posts",
+    "post1.md"
+  );
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  
+  const htmlContent = marked.parse(fileContents);
+
+  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+}
+
+```
+
+<h2>React client component</h2>
+
+
 
 <h2 id="demo">Demo</h2>
 <p>A link to a live demo or a GIF/video showcasing the project's functionality.</p>
