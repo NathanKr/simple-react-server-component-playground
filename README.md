@@ -1,24 +1,9 @@
 
-
-<h2>Table of Contents</h2>
-<ul>
-    <li><a href="#project-description">Project Description</a></li>
-    <li><a href="#motivation">Motivation</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#design">Design</a></li>
-    <li><a href="#technologies-used">Technologies Used</a></li>
-    <li><a href="#code-structure">Code Structure</a></li>
-    <li><a href="#demo">Demo</a></li>
-    <li><a href="#points-of-interest">Points of Interest</a></li>
-    <li><a href="#references">References</a></li>
-</ul>
-
 <h2 id="project-description">Project Description</h2>
 <p>A concise and informative summary of the project's purpose, key features, and target audience.</p>
 
 <h2 id="motivation">Motivation</h2>
-<p>A clear explanation of the reasons behind the project's creation, including the problem it addresses and the benefits it offers.</p>
+We allready saw an hello world react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data from the web ? and why should we do it ?
 
 <h2 id="installation">Installation</h2>
 <p>Step-by-step instructions on how to set up the development environment and install necessary dependencies. </p>
@@ -58,8 +43,6 @@
 
 <h2 id="references">References</h2>
 <ul>
-    <li>External libraries or frameworks</li>
-    <li>Articles or tutorials</li>
-    <li>Other relevant resources</li>
+    <li> <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>Mastering Server vs. Client Components in Next.js!</a></li>
 </ul>
 
