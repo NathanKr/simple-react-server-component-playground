@@ -98,11 +98,9 @@ export async function GET() {
 
 
 <h2 id="demo">Demo</h2>
-<p>A link to a live demo or a GIF/video showcasing the project's functionality.</p>
-<ul>
-    <li>Live demo link</li>
-    <li>GIF or video demonstration</li>
-</ul>
+Home page
+
+<img src='./figs/home-demo.png'/>
 
 <h2 id="points-of-interest">Points of Interest</h2>
 <ul>
