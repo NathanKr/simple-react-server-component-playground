@@ -12,9 +12,9 @@ export default function Md2PostClientComponent() {
     async function fetchMarkdown() {
       try {
         const response = await fetch("/api/markdown");
-        if (!response.ok) {
+        if (!response.ok)
           throw new Error(`HTTP error! status: ${response.status}`);
-        }
+
         const text = await response.text();
         const html = await marked.parse(text);
         setHtmlContent(html);
@@ -30,8 +30,6 @@ export default function Md2PostClientComponent() {
   }, []);
 
   if (loading) return <div>Loading...</div>;
-  
   if (error) return <div>Error: {error}</div>;
-
   return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
 }
