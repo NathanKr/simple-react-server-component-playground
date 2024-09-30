@@ -3,26 +3,22 @@
 <p>A concise and informative summary of the project's purpose, key features, and target audience.</p>
 
 <h2 id="motivation">Motivation</h2>
-We allready saw an hello world react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data from the web ? and why should we do it ?
+We allready saw an hello world react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data ? and why should we do it in a server component ?
 
 <h2 id="installation">Installation</h2>
-<p>Step-by-step instructions on how to set up the development environment and install necessary dependencies. </p>
+
+```bash
+npm i
+```
 
 
 <h2 id="usage">Usage</h2>
-<p>Instructions on how to use the project, including examples, screenshots, or code snippets</p>
+
+```bash
+npm run dev
+```
 
 
-<h2 id="design">Design</h2>
-<p>A high-level overview of the project's architecture, design patterns, and key components.</p>
-
-<h2 id="technologies-used">Technologies Used</h2>
-<ul>
-    <li>Frontend technologies (e.g., React, Vue, Angular)</li>
-    <li>Backend technologies (e.g., Node.js, Python, Ruby)</li>
-    <li>Databases (e.g., MySQL, PostgreSQL, MongoDB)</li>
-    <li>Cloud platforms (if applicable)</li>
-</ul>
 
 <h2 id="code-structure">Code Structure</h2>
 <p>An explanation of the project's code structure, including important files and directories.</p>
@@ -36,9 +32,7 @@ We allready saw an hello world react server and client component <a href='https:
 
 <h2 id="points-of-interest">Points of Interest</h2>
 <ul>
-    <li>Innovative features</li>
-    <li>Technical challenges and solutions</li>
-    <li>Lessons learned</li>
+    <li>SSG</li>
 </ul>
 
 <h2 id="references">References</h2>

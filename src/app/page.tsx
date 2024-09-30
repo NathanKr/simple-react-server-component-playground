@@ -4,9 +4,9 @@ import Md2PostServerComponent from "@/components/server/md-to-post-server-compon
 export default function Home() {
   return (
     <div>
-      <h2 style={{color:'blue'}}>Static Markdown Post Server Component</h2>
+      <h2 style={{color:'lightblue'}}>Static Markdown Post Server Component</h2>
       <Md2PostServerComponent />
-      <h2 style={{color:'blue'}}>Static Markdown Post Client Component</h2>
+      <h2 style={{color:'lightblue'}}>Static Markdown Post Client Component</h2>
       <Md2PostClientComponent />
     </div>
   );
