@@ -1,9 +1,10 @@
 
 <h2>Project Description</h2>
-........
+  <p>This project demonstrates the use of React Server Components (RSC) and Client Components (RCC) in a Next.js environment to handle static Markdown content rendering.</p>
 
 <h2>Motivation</h2>
-We allready saw an 'hello world' react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data ? and why should we do it in a server component ?
+<p>We have already explored a basic 'Hello World' implementation of React Server and Client Components in this  <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>YouTube video</a>. This project aims to investigate how server components can be used for data fetching and explains why they may be beneficial in such scenarios.</p>
+
 
 <h2 >Installation</h2>
 
@@ -19,6 +20,7 @@ npm run dev
 ```
 
 <h2>Main page</h2>
+  <p>The main page showcases both Server and Client components rendering the same Markdown post</p>
 
 ```tsx
 export default function Home() {
@@ -98,18 +100,16 @@ export async function GET() {
 
 
 <h2 id="demo">Demo</h2>
-Home page
-
+  <p>The home page renders Markdown content using both server and client components:</p>
 <img src='./figs/home-demo.png'/>
 
 <h2>React server components pros</h2>
-We can clearly see here the follwoing
 <ul>
-    <li>performance - rsc done on build time , csr done when page load so user wait</li>
-    <li>bundle size - here on server component and client component its the same but in case you want to eliminate the endpoint and do marked on the client - you pay with bundle size due to marked.js invoked on browser </li>
-    <li>seo - rsc better because html is ready on build time</li>
-    <li>code size - rsc has way less source code lines relative to rcc which require also endpoint</li>
-</ul>
+    <li><b>Performance</b>: Server components are rendered at build time, whereas client-side rendering happens when the page loads, causing a delay for users.</li>
+    <li><b>Bundle Size</b>: Using server components can reduce the bundle size since libraries like <code>marked.js</code> are not needed on the client-side.</li>
+    <li><b>SEO Benefits</b>: Server components produce ready-to-use HTML, which is better for search engine optimization.</li>
+    <li><b>Code Size</b>: Server components have fewer source lines of code compared to client components that require endpoints.</li>
+  </ul>
 
 
 <h2 id="points-of-interest">Points of Interest</h2>
