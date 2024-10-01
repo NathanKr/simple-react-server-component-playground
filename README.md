@@ -112,11 +112,13 @@ export async function GET() {
   </ul>
 
 
-<h2 id="points-of-interest">Points of Interest</h2>
-<ul>
-    <li>react server component here - SSG (view source)</li>
-    <li>react client component here - CSR (view source)</li>
-</ul>
+<h2>React Server Component - SSG (Static Site Generation)</h2>
+<p>We can clearly see in the view source that the HTML is created on the server. This generation happens at build time, making the content available upfront when the page is loaded.</p>
+<img src='./figs/view-source-react-server-component.png' alt='View Source for React Server Component' />
+
+<h2>React Client Component - CSR (Client-Side Rendering)</h2>
+<p>We can see in the view source that the HTML is created on the client side, meaning it does not appear in the initial HTML source. Instead, it is dynamically rendered when the page is loaded, making it less optimal for SEO.</p>
+<img src='./figs/view-source-react-client-component.png' alt='View Source for React Client Component' />
 
 <h2 id="references">References</h2>
 <ul>
