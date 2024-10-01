@@ -1,18 +1,18 @@
 
-<h2 id="project-description">Project Description</h2>
+<h2>Project Description</h2>
 ........
 
-<h2 id="motivation">Motivation</h2>
+<h2>Motivation</h2>
 We allready saw an 'hello world' react server and client component <a href='https://www.youtube.com/watch?v=7WhcpereZkQ'>here</a> but can we use server component to fetch data ? and why should we do it in a server component ?
 
-<h2 id="installation">Installation</h2>
+<h2 >Installation</h2>
 
 ```bash
 npm i
 ```
 
 
-<h2 id="usage">Usage</h2>
+<h2 >Usage</h2>
 
 ```bash
 npm run dev
@@ -102,14 +102,20 @@ Home page
 
 <img src='./figs/home-demo.png'/>
 
+<h2>React server components pros</h2>
+We can clearly see here the follwoing
+<ul>
+    <li>performance - rsc done on build time , csr done when page load so user wait</li>
+    <li>bundle size - here on server component and client component its the same but in case you want to eliminate the endpoint and do marked on the client - you pay with bundle size due to marked.js invoked on browser </li>
+    <li>seo - rsc better because html is ready on build time</li>
+    <li>code size - rsc has way less source code lines relative to rcc which require also endpoint</li>
+</ul>
+
+
 <h2 id="points-of-interest">Points of Interest</h2>
 <ul>
     <li>react server component here - SSG (view source)</li>
     <li>react client component here - CSR (view source)</li>
-    <li>performance - rsc done on build time , csr done when page load so user wait</li>
-    <li>bundle size - here on server component and client component its the same but in case you want to eliminate the endpoint and do marked on the client - you pay with bundle size diue to marked.js invoked on browser </li>
-    <li>seo - rsc better because html is ready on build time</li>
-    <li>code size - rsc has way less source code lines relative to rcc which require also endpoint</li>
 </ul>
 
 <h2 id="references">References</h2>
